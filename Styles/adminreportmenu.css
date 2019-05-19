@@ -1,0 +1,44 @@
+.reportmenu{
+  background-color:#343434;
+  border-radius: 30px;
+  padding: 20px 20px 20px 20px;
+  color:white;
+  height:300px
+}
+
+.reportmenutitle{
+  text-align:center;
+  padding-bottom:50px;
+}
+
+.reportmenuitems{
+  text-align:center;
+  padding-bottom:70px;
+}
+
+.reportmenu a{
+  color:inherit;
+  text-decoration: none;
+  padding: 7px;
+  background-color:#F01919;
+  border-radius:5px;
+  margin-right: 20px;
+}
+
+.reportmenu a active{
+  color:inherit;
+  text-decoration: none;
+
+}
+
+.reportmenu a visited{
+  color:inherit;
+  text-decoration: none;
+
+}
+
+.reportmenu a hover{
+  text-decoration: none;
+  color:inherit;
+
+}

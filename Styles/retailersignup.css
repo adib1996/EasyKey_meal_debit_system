@@ -1,0 +1,217 @@
+/*Sign up form*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.retailersignup-form{
+  background-color:#302e30;
+  border-radius:40px;
+  padding: 20px 20px 20px 20px;
+  margin-bottom:100px;
+  color:white;
+  text-align:center;
+}
+
+.retailersignup-form input{
+  display:block;
+  margin: 0 auto; /*Centers all input fields*/
+}
+
+.retailersignup-form label{
+  display:block;
+  margin-top:20px; /*Change to top if desired*/
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+}
+
+.retailername{
+  display:inline-block;
+  width:55%;
+}
+
+.retailername label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.retailername input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.retaileraddressone{
+  display:inline-block;
+  width:55%;
+}
+
+.retaileraddressone label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.retaileraddressone input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.retaileraddresstwo{
+  display:inline-block;
+  width:55%;
+}
+
+.retaileraddresstwo label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.retaileraddresstwo input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.retailerlogoupload{
+  display:inline-block;
+  width:55%;
+}
+
+.retailerlogoupload label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.retailerlogoupload input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.retailerzipcode{
+  display:inline-block;
+  width:55%;
+}
+
+.retailerzipcode label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.retailerzipcode input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.retailerphoneno{
+  display:inline-block;
+  width:55%;
+}
+
+.retailerphoneno label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.retailerphoneno input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.retaileremail{
+  display:inline-block;
+  width:55%;
+}
+
+.retaileremail label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.retaileremail input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.reqsubmitbutton{
+  padding-top:40px;
+}
+
+.reqsubmitbutton button{
+  width:50%;
+  padding: 16px 20px;
+  border-radius:5px;
+  border:none;
+  cursor:pointer;
+  transition-duration:0.4s;
+}
+
+.reqsubmitbutton button:hover{
+  background-color:#F01919;
+  color:white;
+}
+
+.checkboxes{
+  margin: 0 auto;
+  margin-top:20px;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.checkboxes input{
+  margin:0;
+  margin-right:10px;
+}
+
+.retailerdesc{
+  display:inline-block;
+  width:55%;
+}
+
+.retailerdesc label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.retailerdesc textarea{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  width:90%;
+}

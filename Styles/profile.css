@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+/*Profile Page*/
+
+.profiledash{
+  text-align:center;
+  background-color:#383838;
+  border-radius:30px;
+  padding-top:5px;
+  margin-left:170px;
+  width:70%;
+  color:white;
+}
+
+.profileblocks{
+  display:flex;
+  margin-left:150px;
+  padding-bottom:50px;
+}
+
+.profileitemsleft{
+  text-align:left;
+  margin-right: 110px;
+  /* width:40%; */
+}
+
+.profiletitle{
+  margin-bottom:50px;
+}
+
+.profileitemsright{
+  text-align:left;
+  padding-right:30px;
+  /* width:40%; */
+}
+
+.profileactions{
+  padding-bottom:50px;
+}
+
+.profileactions a{
+  background-color:#F01919;
+  color:white;
+  text-decoration:inherit;
+  margin-right:30px;
+  border-radius:5px;
+  padding:7px;
+}
+
+.profileactions a hover{
+  text-decoration:inherit;
+}
+
+.profileactions a visited{
+  text-decoration:inherit;
+}
+
+.profileactions a active{
+  text-decoration:inherit;
+}
+
+
+/* .editdelete{
+  padding-top:60px;
+  padding-bottom:60px;
+  text-align:center;
+}
+
+.editdelete a{
+  list-style-type: none;
+  text-decoration:none;
+  padding: 10px 10px 10px 10px;
+  width:200px;
+  margin-right:40px;
+  border: none;
+  background-color: #287aff;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  height:35px;
+  transition-duration:0.5s;
+}
+
+.editdelete a:hover{
+  background-color:#1e1e1e;
+}
+
+#delete:hover{
+  background-color:red;
+}
+
+hr.profileline{
+  overflow: visible; /* For IE */
+  /* height: 30px;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  width:900px;
+}
+ */

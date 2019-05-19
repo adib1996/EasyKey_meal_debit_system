@@ -1,0 +1,71 @@
+.orderdetailtablerow{
+  background-color:#a8abaf;
+  color:white;
+}
+
+.orderdetailtablerow{
+  height:50px;
+}
+
+.orderdetailtable{
+  background-color:#343434;
+  padding-top:15px;
+  padding-left:25px;
+  text-align:center;
+  border-radius:30px;
+  color:white;
+  padding-bottom:30px;
+}
+
+.detailtable{
+  text-align:center;
+  border-collapse:collapse;
+  width:90%;
+  margin-left:55px;
+}
+
+.detailtitle{
+  padding-bottom:15px;
+}
+
+.delivaddress{
+  text-align:center;
+}
+
+.addressinfo{
+  background-color:#5b5b5b;
+  border-radius:30px;
+  padding:10px 10px 10px 10px;
+  text-align:center;
+  display:flex;
+}
+
+.addressinfoleft{
+  text-align:left;
+  width:40%;
+  margin-left:250px
+}
+
+.addressinforight{
+  text-align: left;
+  width:40%;
+
+}
+
+.completecancel{
+  margin-top:40px;
+}
+
+.completecancel a{
+  color:white;
+  text-decoration:none;
+  border: none;
+  border-radius: 5px;
+  background-color: #F01919;
+  padding:10px;
+  cursor:pointer;
+  padding-left:50px;
+  padding-right: 50px;
+  margin-left:50px;
+  margin-right:50px;
+}

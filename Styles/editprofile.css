@@ -1,0 +1,111 @@
+/*Edit Profile Page*/
+
+.editprofileboard{
+  display:flex;
+  flex-direction: column;
+  background-color:#343434;
+  color:white;
+  width:60%;
+  border-radius:30px;
+  margin-left:170px;
+  padding-left:100px;
+  padding-bottom:50px;
+}
+
+.editprofilemenu{
+  margin-top:10px;
+  display: flex;
+}
+
+.profilepersonalinfo{
+  background-color:#343434;
+  width: 50%;
+  height: 100%;
+}
+
+.profilepersonalinfo label{
+  margin-top:20px;
+}
+
+.profilepersonalinfo input{
+  margin-bottom:30px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:60%;
+  display:block;
+}
+
+.profilepersonalinfo select{
+  margin-top:8px;
+  width:60%;
+  padding: 12px 20px;
+  border-radius:5px;
+  border:none;
+}
+
+.shippingaddress{
+  background-color: #343434;
+
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.shippingaddress input{
+  margin-bottom:30px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:60%;
+}
+
+.shippingaddress select{
+  margin-top:8px;
+  width:60%;
+  padding: 12px 20px;
+  border-radius:5px;
+  border:none;
+}
+
+.dob input{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.savechangebutton{
+  margin-left:150px;
+  margin-top:50px;
+}
+
+.savechangebutton button{
+  width:60%;
+  padding:16px 20px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  transition-duration:0.4s;
+}
+
+.savechangebutton button:hover{
+  color:white;
+  background-color:#F01919;
+}
+
+.editprofileline{
+  border-color:white;
+  width:220px;
+  margin-left:0px;
+  margin-bottom:30px;
+}
+
+.editprofiletitles h5{
+  margin-bottom:0px;
+}

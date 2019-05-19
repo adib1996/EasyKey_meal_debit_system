@@ -1,0 +1,144 @@
+.restaurantheader{
+  color:white;
+}
+
+.restaurantheader ul{
+  margin:0;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#111111;
+  border-radius:10px;
+}
+
+.restaurantheader ul li{
+
+  display:inline-block;
+  width:100px;
+  text-align:center;
+  line-height: 30px;
+}
+
+.restaurantheader ul li a{
+
+  text-decoration: none;
+
+}
+
+.restaurantheader a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.restaurantheader a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.restaurantheader a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.restaurantheader a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.restaurantheader li:hover {
+  background-color:red;
+  border-radius:5px;
+}
+
+.restaurantheader a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.restaurantlogoname{
+  display:inline-flex;
+}
+
+.restauranttitle{
+
+margin-left:30px;
+
+}
+
+.restaurantproduct form{
+  width: 100%;
+  display:inline-flex;
+}
+
+.pricecart{
+  width:25%;
+  padding-top:55px;
+  display:inline-flex;
+}
+
+.pricecart p{
+  color:white;
+}
+
+.addbutton{
+
+  margin-top: 10px;
+  margin-left: 30px;
+
+}
+
+.addbutton button{
+  height:30px;
+  background-color:#F01919;
+  border:none;
+  color:white;
+  border-radius:5px;
+}
+
+.productnameinfo{
+  width: 20%;
+}
+
+.nameinfo{
+  width:55%;
+  padding-top:30px;
+  color:white;
+}
+
+.nameinfo a{
+  font-size:20px;
+}
+
+.nameinfo p{
+  padding-top:20px;
+  padding-left:30px;
+  width:85%;
+}
+
+.retailermenupanel{
+  padding: 20px 20px 20px 20px;
+  background-color:#343434;
+  border-radius:30px;
+}
+
+#sub{
+  width:30px;
+  height:35px;
+}
+
+#add{
+  width:30px;
+  height:35px;
+}
+
+.quantityselector input{
+  text-align:center;
+  width:30px;
+  height:30px;
+}
+
+.quantityselector{
+  margin-left:50px;
+  margin-top:8px;
+}

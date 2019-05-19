@@ -1,0 +1,51 @@
+.activeordertable{
+  background-color:#343434;;
+  padding-top:15px;
+  padding-left:25px;
+  text-align:center;
+  border-radius:30px;
+  color:white;
+  padding-bottom:30px;
+}
+
+.activetable{
+  text-align:center;
+  border-collapse:collapse;
+  margin: 0 auto;
+}
+
+.activeordertable a{
+  background-color:#F01919;
+  border:2px solid red;
+  border-radius:5px;
+  padding: 4px;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  cursor:pointer;
+  text-decoration:none;
+  font-size:14px;
+}
+
+.activeordertable a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.activeordertable a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.activeordertable a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.activeordertablerow{
+  background-color:#a8abaf;
+  color:white;
+}
+
+.activeordertablerow{
+  height:50px;
+}

@@ -1,0 +1,79 @@
+.singlelogin input{
+  width:200px;
+}
+
+.singlelogin-form{
+  background-color:#343434;
+  padding: 10px 20px 20px 20px;
+  border-radius: 30px;
+  width: 400px;
+  margin-left: 160px;
+  color:white;
+  margin-bottom:100px;
+}
+
+.singlelogin-form input{
+  display:block;
+  margin: 0 auto;
+}
+
+.singlelogin-form label{
+  display:block;
+  margin-top:20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+}
+
+.singlelogin-form label{
+  text-align:left;
+  margin-left:10px;
+}
+
+.singlelogin-form input{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:80%;
+}
+
+.singleloginbutton button{
+  width:80%;
+  padding: 16px 20px;
+  border-radius:5px;
+  border:none;
+  cursor:pointer;
+  transition-duration:0.4s;
+}
+
+.singleloginbutton button:hover{
+  color:white;
+  background-color:#F01919;
+}
+
+.box{
+  margin-left:70px;
+}
+
+.checkboxespasswordlogin{
+  margin-top:20px;
+  display: flex;
+  width: 50%;
+  justify-content: left;
+  font-size:14px;
+}
+
+.notmember{
+
+}
+
+.notmember a{
+  color:inherit;
+  text-decoration:none;
+}
+
+.notmember a:hover{
+  color:red;
+}

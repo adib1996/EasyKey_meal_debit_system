@@ -1,0 +1,58 @@
+.topuppanel{
+  width:45%;
+  background-color: #343434;
+  padding:20px 20px 20px 20px;
+  text-align:center;
+  color:white;
+  border-radius:30px;
+  margin-left:300px;
+}
+
+.topuppanel label{
+  display:block;
+}
+
+.topupinputfield{
+
+  margin-bottom:25px;
+
+}
+
+.topupinputfield input{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:50%;
+}
+
+.topupinputfield select{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:50%;
+}
+
+.topuppanel button{
+  width:60%;
+  padding: 16px 20px;
+  border-radius:5px;
+  border:none;
+  cursor:pointer;
+  transition-duration:0.4s;
+  margin-bottom:30px;
+}
+
+.topuppanel button:hover{
+  color:white;
+  background-color:#F01919;
+}
+
+#ccdate{
+  font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,52 @@
+.viewcustomerspanel{
+  padding: 20px 20px 20px 20px;
+  background-color:#343434;
+  color:white;
+  border-radius:30px;
+  text-align:center;
+}
+
+.viewcustomerstitle{
+  padding-bottom:30px;
+}
+
+.viewcustomersrow{
+  background-color:#a8abaf;
+  color:white;
+}
+
+.viewcustomersrow{
+  height:40px;
+}
+
+.viewcustomerstable{
+  border-collapse:collapse;
+  text-align:center;
+}
+
+.viewcustomerstable a{
+  background-color:#F01919;
+  border:2px solid red;
+  border-radius:5px;
+  padding: 4px;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  cursor:pointer;
+  text-decoration:none;
+  font-size:12px;
+}
+
+.viewcustomerstable a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.viewcustomerstable a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.viewcustomerstable a:hover {
+    text-decoration: none;
+    color: inherit;
+}

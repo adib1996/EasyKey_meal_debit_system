@@ -1,0 +1,86 @@
+#bodycheckout{
+  padding-top:140px;
+  margin: 0 auto;
+  width:80%;
+  padding-bottom:165px;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+
+#checkouticon{
+  margin-right:10px;
+}
+
+.shippingaddressdiv{
+  margin-left:240px;
+  width:60%;
+  padding-bottom:30px;
+  margin-bottom:30px;
+  text-align:center;
+  background-color:#343434;
+  border-radius:30px;
+}
+
+.shippingaddressdiv select{
+  width: 50%;
+  padding:12px 20px;
+  margin: 8px 0;
+  box-sizing:border-box;
+  border: 1px solid #555;
+  outline:none;
+  border-radius:5px;
+}
+
+.shippingaddressdiv input{
+  width: 50%;
+  padding:12px 20px;
+  margin: 8px 0;
+  box-sizing:border-box;
+  border: 1px solid #555;
+  outline:none;
+  border-radius:5px;
+}
+
+.shippingaddressdiv input:focus{
+  background-color: lightblue;
+}
+
+.shippingaddressdiv label{
+  display:block;
+  margin-top:20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.cartinfodiv{
+ color:white;
+}
+
+.shippingaddressdiv{
+
+  display:inline-block;
+}
+
+.checkoutbutton{
+  padding-bottom:60px;
+}
+
+.checkoutbutton button{
+  width:100%;
+  padding: 16px 20px;
+  border-radius:5px;
+  border:none;
+  cursor:pointer;
+  transition-duration:0.4s;
+}
+
+.checkoutbutton button:hover{
+  background-color:#0a2a5e;
+  color:white;
+}
+
+#checkoutbutton{
+
+  padding:10px;
+  font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html{
+  height:100%;
+  position:relative;
+}
+
+body {
+  margin:0;
+  padding:0;
+  background-image: url("../Resources/Logos/backgroundimage.jpg");
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  min-height: 100%;
+  position: relative;
+}
+
+#body{
+  padding-top:120px;
+  margin: 0 auto;
+  width:50%;
+  padding-bottom:165px;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+}
+
+/*Invidual Login Page*/
+
+.loginsignup a{
+  text-decoration:none;
+  color:white;
+  cursor:pointer;
+}
+
+.loginsignup a:hover{
+  color:#d8e7ff;
+}
+
+/*Class for error message styling*/
+.errorsuccesspanel{
+  text-align: center;
+  background-color: #343434;
+  border-radius:30px;
+  width:40%;
+  line-height: 40px;
+  margin:0 auto;
+  margin-bottom:50px;
+}
+
+.error{
+  color:red;
+  padding:0;
+  margin-top:15px;
+}
+
+.success{
+  color:#30ff4b;
+  padding:0;
+  margin-top:15px;
+}
+
+/*View Products Table*/
+#bodydisplay{
+  padding-top:120px;
+  margin: 0 auto;
+  width:80%;
+  letter-spacing:0.5px;
+  padding-bottom:165px;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+}
+
+.displaytable{
+  text-align:center;
+  background-color:white;
+  border-collapse:collapse;
+  margin-bottom:80px;
+}
+
+.displaytable button{
+  background-color:#F01919;
+  border:2px solid red;
+  border-radius:5px;
+  height:35px;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  cursor:pointer;
+}
+
+.displayrow{
+  background-color:#a8abaf;
+}
+
+/*Products Gallery*/
+#bodyindex{
+  padding-top:120px;
+  padding-bottom:300px;
+  margin: 0 auto;
+  width:80%;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+}
+
+#bodyretailermenu{
+  padding: 20px 20px 20px 20px;
+  padding-top:120px;
+  padding-bottom:300px;
+  margin: 0 auto;
+  width:80%;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+}
+
+.searchcontainer{
+  display:flex;
+  width:100%;
+  margin-bottom:15px;
+}
+
+.searchcontainer input{
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.searchcontainer button{
+float: left;
+width: 20%;
+padding: 10px;
+background: #2196F3;
+color: white;
+font-size: 17px;
+border: 1px solid grey;
+border-left: none;
+cursor: pointer;
+}
+
+.searchcontainer button:hover{
+  background-color: #0b7dda;
+}
+
+.retailertable{
+  padding-bottom:60px;
+  padding-left:40px;
+  width:250px;
+}
+
+.retailerrestos{
+  border:none;
+  border-radius:40px;
+  margin-right:10px;
+  margin-left:10px;
+  background-color:white;
+  padding:16px;
+  text-align:center;
+}
+
+.retailerrestos a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.retailerrestos a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.retailerrestos a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.retailerrestos a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.retailerrestos a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.retailerrestos:hover{
+  box-shadow: 0 0 10px rgba(35, 173, 278, 1);
+}
+
+.productquantity input{
+  text-align:center;
+  width:20px;
+}
+
+.productname{
+  width:200px;
+    /* padding-left:20px; */
+}
+
+.productprice{
+  color:#2c6cd3;
+}
+
+.container-fluid{
+  padding-top:40px;
+}
+
+.col-sm-4 {
+      display:inline-block;
+      cursor:pointer;
+}
+
+.addtocartbutton button{
+    /* width: 100px;
+    height: 30px;
+    margin-top:10px;
+    border: none;
+    background-color: #287aff;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.6s; */
+}
+
+.addtocartbutton button:hover{
+  background-color:#1e1e1e;
+}
+
+.addtocartbutton button{
+  text-decoration:none;
+  color:white;
+}
+
+.queryresult{
+  color: white;
+}
+
+.adminpanel{
+  color:white;
+  height:300px;
+  background-color:#343434;
+  text-align:center;
+  border-radius:30px;
+  padding-top:20px;
+  padding-bottom:30px;
+}
+
+.adminpanelmenu{
+  margin-top:50px;
+}
+
+.adminpanelmenu a{
+  border: none;
+  border-radius: 5px;
+  background-color: #F01919;
+  padding: 7px;
+  margin-right: 20px;
+  margin-left: 30px;
+  color:white;
+  font-size:14px;
+  text-decoration:none;
+}
+
+.appliedretailerpanel{
+  color:white;
+  height:300px;
+  background-color:#343434;
+  text-align:center;
+  border-radius:30px;
+  padding-top:20px;
+}
+
+.appliedretailerpanelmenu{
+  margin-top:50px;
+}
+
+.appliedretailerpanelmenu a{
+  border: none;
+  border-radius: 5px;
+  background-color: #F01919;
+  padding: 7px;
+  margin-right: 20px;
+  margin-left: 30px;
+  color:white;
+  font-size:14px;
+  text-decoration:none;
+}
+
+.retailerpanel{
+  color:white;
+  height:250px;
+  background-color:#343434;
+  text-align:center;
+  border-radius:30px;
+  padding-top:20px;
+}
+
+.retailerpanelmenu{
+  margin-top:50px;
+}
+
+.retailerpanelmenu a{
+  border: none;
+  border-radius: 5px;
+  background-color: #F01919;
+  padding: 7px;
+  margin-right: 20px;
+  margin-left: 30px;
+  color:white;
+  font-size:14px;
+  text-decoration:none;
+}
+
+td{
+  padding:13px;
+}
+
+th{
+  padding:5px;
+}
+
+.pendingtitle p{
+  padding:5px;
+  background-color:green;
+  border-radius:40px;
+  width:35%;
+}
+
+.pendingtitle{
+  padding-bottom:35px;
+  margin-left:470px;
+}
+
+.rejectedtitle{
+  padding-bottom:35px;
+  margin-left:470px;
+}
+
+.rejectedtitle p{
+  padding:5px;
+  background-color:#560000;
+  border-radius:40px;
+  width:35%;
+}
+
+.orderdonepanel{
+  color:white;
+  height:420px;
+  background-color:#343434;
+  text-align:center;
+  border-radius:30px;
+  padding-top:20px;
+}
+
+.vieworderdone{
+  padding-top:35px;
+}
+
+.vieworderdone a{
+  color:inherit;
+  text-decoration: none;
+  padding: 7px;
+  background-color:#F01919;
+  border-radius:5px;
+}
+
+#gobackbutton{
+  color:inherit;
+  text-decoration: none;
+  padding: 7px;
+  background-color:#F01919;
+  border-radius:5px;
+}
+
+.ordercancelpanel{
+  color:white;
+  height:250px;
+  background-color:#343434;
+  text-align:center;
+  border-radius:30px;
+  padding-top:20px;
+}

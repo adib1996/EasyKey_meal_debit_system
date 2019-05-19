@@ -1,0 +1,50 @@
+.orderhistorytable{
+  background-color:#343434;
+  padding-top:15px;
+  padding-left:25px;
+  text-align:center;
+  border-radius:30px;
+  color:white;
+  padding-bottom:30px;
+}
+
+.historytable{
+  text-align:center;
+  border-collapse:collapse;
+}
+
+.orderhistorytable a{
+  background-color:#F01919;
+  border:2px solid red;
+  border-radius:5px;
+  padding: 4px;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  cursor:pointer;
+  text-decoration:none;
+  font-size:14px;
+}
+
+.orderhistorytable a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.orderhistorytable a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.orderhistorytable a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.orderhistorytablerow{
+  background-color:#a8abaf;
+  color:white;
+}
+
+.orderhistorytablerow{
+  height:50px;
+}

@@ -1,0 +1,41 @@
+.topuphistorytable{
+  background-color:#343434;
+  padding-top:15px;
+  padding-left:25px;
+  text-align:center;
+  border-radius:30px;
+  color:white;
+  padding-bottom:30px;
+}
+
+.topuptable{
+  text-align:center;
+  border-collapse:collapse;
+}
+
+.topuphistorytable a{
+  background-color:#F01919;
+  border:2px solid red;
+  border-radius:5px;
+  padding: 4px;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  cursor:pointer;
+  text-decoration:none;
+  font-size:14px;
+}
+
+.topuphistorytablerow{
+  height:50px;
+  background-color:#a8abaf;
+  color:white;
+}
+
+.topuphistorytitle{
+  padding-bottom:15px;
+}
+
+.topuphistorytable table{
+  width:90%;
+  margin-left:40px;
+}

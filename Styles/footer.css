@@ -1,0 +1,53 @@
+/*Footer Section*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.footer {
+  position:absolute; /*Change to Relative Anytime soon */
+  width:100%;
+  bottom: 0;
+  height:165px;
+  background-color:#383838;
+  text-align: center;
+}
+
+.footerobjects{
+  display:inline-block;
+  width:450px;
+}
+
+.storeicon img{
+ padding-left:20px;
+}
+
+.footersocialmedia img{
+  padding-left:20px;
+}
+
+.footersocialmedia p{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  padding-left:15px;
+}
+
+.footerlink{
+    list-style:none;
+  font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+}
+
+.footerlink li{
+  display:block;
+  padding-bottom:10px;
+}
+
+.footerlink a{
+  text-decoration:none;
+  color:white;
+}
+
+.footerlink a:hover{
+  color:#d8e7ff;
+}

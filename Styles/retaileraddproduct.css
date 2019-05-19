@@ -1,0 +1,111 @@
+.uploadprodpanel{
+  background-color:#302e30;
+  border-radius:40px;
+  padding: 20px 20px 20px 20px;
+  color:white;
+  text-align:center;
+  width:60%;
+  margin-left:200px;
+}
+
+.uploadprodpanel input{
+  display:block;
+  margin: 0 auto; /*Centers all input fields*/
+}
+
+.uploadprodpanel label{
+  display:block;
+  margin-top:20px; /*Change to top if desired*/
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+}
+
+.uploadprodname{
+  display:inline-block;
+  width:55%;
+}
+
+.uploadprodname label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.uploadprodname input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.uploadprodprice{
+  display:inline-block;
+  width:55%;
+}
+
+.uploadprodprice label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.uploadprodprice input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.uploadproductdesc textarea{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  width:50%;
+}
+
+.uploadprodimage{
+  display:inline-block;
+  width:55%;
+}
+
+.uploadprodimage label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.uploadprodimage input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.uploadprodbutton{
+  padding-top:40px;
+}
+
+.uploadprodbutton button{
+  width:50%;
+  padding: 16px 20px;
+  border-radius:5px;
+  border:none;
+  cursor:pointer;
+  transition-duration:0.4s;
+}
+
+.uploadprodbutton button:hover{
+  background-color:#F01919;
+  color:white;
+}

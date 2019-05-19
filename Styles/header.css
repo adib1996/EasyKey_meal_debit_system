@@ -1,0 +1,255 @@
+/*General CSS*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*Navigation Bar*/
+.navbar{
+  width:100%;
+  background: #383838;
+  position:fixed; /*Change to Fixed if needed*/
+  top:0;
+}
+
+.wrapper{
+  margin: 0 auto;
+  width:90%;
+  /* height:60px; */
+}
+
+.test{
+  line-height: 30px;
+  width: 200px;
+  text-align: center;
+  padding-left:20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    /* line-height: 60px; */
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+header nav ul li{
+  float:left;
+  width:130px;
+}
+
+header nav ul li a{
+    /* display: block; */
+    text-align: center;
+    color:#f2f2f2;
+    text-decoration: none;
+    letter-spacing:0.5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+}
+
+#signuplink{
+  float:right;
+  display:inline;
+  margin-top:14px;
+  line-height:30.5px;
+  width:80px;
+  border:none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: white;
+  cursor:pointer;
+  background-color: #F01919;
+  border-radius:5px
+}
+
+#testformid{
+  float:right;
+  width:100px;
+}
+
+#loggedinaccount{
+  float:left;
+  color:white;
+  /* width: 200px; */
+  line-height:0px;
+  padding-top:15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.profilebar{
+  border:none;
+  border-radius:5px;
+  background-color:#F01919;
+  padding:7px;
+  /* margin-right:20px; */
+  margin-left:20px;
+}
+
+.accountbalance{
+  border:none;
+  border-radius:5px;
+  padding:7px;
+  /* margin-right:20px; */
+  margin-left:20px;
+}
+
+.forlogo{
+  height:100%;
+  width: 100%;
+  padding-top:15px;
+}
+
+/*For most icons in drop down lists*/
+#icontest{
+  vertical-align:middle;
+  float:left;
+  padding-top:8px;
+}
+
+/*Shopping Cart*/
+.shoppingcart{
+  padding-left:70px;
+  padding-top:10px;
+}
+
+.carticon{
+  border: none;
+  border-radius:40px;
+  line-height:40px;
+  text-align:center;
+  background-color:#F01919;
+}
+
+/*Responsive Search Bar*/
+
+header .searchsection{
+  padding-left:250px;
+  width:370px;
+  top:10px;
+  position:relative;
+}
+
+.searchbar{
+  background:#890000;
+  height:40px;
+  border-radius:40px;
+  position:absolute;
+}
+
+.search-btn{
+  border:none;
+  color:#ff4747;
+  background:#7a1616;
+  float:right;
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.search-txt{
+  border:none;
+  background:none;
+  outline:none;
+  float:left;
+  padding:0;
+  color:white;
+  font-size:16px;
+  transition:0.4s;
+  line-height:40px;
+  width:0px; /*CHANGE THIS*/
+}
+
+.searchbar:hover > .search-txt{
+  width:200px;
+  padding:0 20px;
+}
+
+.searchbar:hover > .search-btn{
+  background:white;
+}
+
+/*Minimizing Purposes*/
+/* @media (min-width:20rem) {
+  header .searchsection{
+    display: block;
+  }
+} */
+
+#productlink{
+  text-decoration:none;
+  color:white;
+}
+
+/*Login Section*/
+
+header .nav-login{
+  float:right;
+  width:670px;
+}
+
+/* @media (min-width:90rem) {
+  header .nav-login{
+    display: inline;
+  }
+} */
+
+header .nav-login form input{
+  width : 140px;
+  height: 30px;
+  padding: 0px 10px;
+  margin-right : 10px;
+  border: 2px solid #F01919;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #111;
+  line-height: 30px;
+}
+
+header .nav-login form input:focus{
+  border: 3px solid #F01919;
+}
+
+header .nav-login form button{
+  width : 90px;
+  height: 30px;
+  margin-top:15px;
+  margin-right : 10px;
+  border:none;
+  background-color: #F01919;
+  border-radius:5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: white;
+  cursor:pointer;
+}
+
+.loginform{
+  padding-left:50px;
+}
+
+/*Products Bar*/
+.productsection{
+  line-height:30px;
+}
+
+.productsection ul{
+  text-align:center;
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+.productsection ul li{
+  position:relative; /*Remove if uneeded*/
+  display:inline-block;
+  width:220px;
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  color:white;
+}
+
+.productsection ul li:hover{
+  background-color:#397cce;
+}

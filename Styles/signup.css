@@ -1,0 +1,369 @@
+/*Sign up form*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+#signupbanner{
+  font-family: 'Montserrat', sans-serif;
+  font-size:32px;
+}
+
+.signup-form{
+  background-color:#302e30;
+  height:1750px;
+  border-radius:40px;
+  padding: 20px 20px 20px 20px;
+  margin-bottom:100px;
+  color:white;
+  text-align:center;
+}
+
+.signup-form input{
+  display:block;
+  margin: 0 auto; /*Centers all input fields*/
+}
+
+.signup-form label{
+  display:block;
+  margin-top:20px; /*Change to top if desired*/
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+}
+
+.firstlast{
+    display:inline-block;
+}
+
+.firstlast label{
+  text-align:left;
+  margin-left:10px;
+}
+
+.firstlast input{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+}
+
+.email{
+  display:inline-block;
+  width:55%;
+}
+
+.email label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.email input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.username{
+  display:inline-block;
+  width:55%;
+}
+
+.username label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.username input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.passwords{
+    display:inline-block;
+    width:50%;
+  /* margin-right:20px; */
+}
+
+.passwords label{
+  text-align:left;
+  margin-left:10px;
+}
+
+.passwords input{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:100%;
+}
+
+.signupbutton{
+  padding-top:40px;
+}
+.signupbutton button{
+  width:50%;
+  padding: 16px 20px;
+  border-radius:5px;
+  border:none;
+  cursor:pointer;
+  transition-duration:0.4s;
+}
+
+.signupbutton button:hover{
+  background-color:#F01919;
+  color:white;
+}
+
+/*Bridge between content and non content in database*/
+
+
+.selectnationality{
+  display:inline-block;
+  width:55%;
+}
+
+.selectnationality label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.selectnationality select{
+  margin-top:8px;
+  width:90%;
+  padding: 12px 20px;
+  border-radius:5px;
+  border:none;
+}
+
+.passportnumber{
+  display:inline-block;
+  width:55%
+}
+
+.passportnumber label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.passportnumber input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.phonegender{
+    display:inline-block;
+  margin-right:20px;
+}
+
+.phonegender label{
+  text-align:left;
+  margin-left:10px;
+}
+
+.phonegender input{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:100%;
+}
+
+.phonegender select{
+  margin-top:8px;
+  width:100%;
+  padding: 12px 20px;
+  border-radius:5px;
+  border:none;
+}
+
+.dateofbirth{
+  display:inline-block;
+  width:55%;
+}
+
+.dateofbirth label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.dateofbirth input{
+  font-family: 'Montserrat', sans-serif;
+  padding: 12px 20px;
+  margin-top:8px;
+  margin-bottom:20px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+hr.line { overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  width:600px;
+}
+
+.countryresidence{
+  display:inline-block;
+  width:55%;
+}
+
+.countryresidence label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.countryresidence select{
+  margin-top:8px;
+  width:90%;
+  padding: 12px 20px;
+  border-radius:5px;
+  border:none;
+}
+
+.province{
+  display:inline-block;
+  width:55%;
+}
+
+.province label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.province input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.city{
+  display:inline-block;
+  width:55%;
+}
+
+.city label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.city input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.addressline1{
+  display:inline-block;
+  width:55%;
+}
+
+.addressline1 label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.addressline1 input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.addressline2{
+  display:inline-block;
+  width:55%;
+}
+
+.addressline2 label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.addressline2 input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.zipcode{
+  display:inline-block;
+  width:55%;
+}
+
+.zipcode label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.zipcode input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.checkboxes{
+  margin: 0 auto;
+  margin-top:20px;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.checkboxes input{
+  margin:0;
+  margin-right:10px;
+}
+
+.checkboxespassword{
+  margin: 0 auto;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.checkboxespassword input{
+  margin:0;
+  margin-right:10px;
+}

@@ -1,0 +1,174 @@
+.retailereditproduct{
+  background-color: #343434;
+  color:white;
+  padding: 20px 20px 20px 20px;
+  border-radius:30px;
+  text-align:center;
+  width:60%;
+  margin-left:220px;
+}
+
+.retailereditproduct input{
+  display:block;
+  margin: 0 auto; /*Centers all input fields*/
+}
+
+.retailereditproduct label{
+  display:block;
+  margin-top:20px; /*Change to top if desired*/
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+}
+
+.productid{
+  display:inline-block;
+  width:55%;
+}
+
+.productid label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.productid input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.editproductname{
+  display:inline-block;
+  width:55%;
+}
+
+.editproductname label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.editproductname input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.editproductprice{
+  display:inline-block;
+  width:55%;
+}
+
+.editproductprice label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.editproductprice input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.selectcategory{
+  display:inline-block;
+  width:55%;
+}
+
+.selectcategory label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.selectcategory input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.selectcategory select{
+    margin-top:8px;
+    width:90%;
+    padding: 12px 20px;
+    border-radius:5px;
+    border:none;
+  }
+
+.checkboxescategory{
+  display:flex;
+  align-items:center;
+  padding-left:50px;
+}
+
+.checkboxescategory input{
+
+}
+
+.test1 {
+  width:80%;
+  padding-bottom:12px;
+}
+
+.test2{
+  width:10%;
+}
+
+.editproductdesc textarea{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  width:50%;
+}
+
+.editproductsave{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.editproductsave button{
+  width:50%;
+  padding: 16px 20px;
+  border-radius:5px;
+  border:none;
+  cursor:pointer;
+  transition-duration:0.4s;
+}
+
+.editproductsave button:hover{
+  background-color:#F01919;
+  color:white;
+}
+
+.disableitemcheckbox{
+width:50%;
+margin:0 auto;
+display:flex;
+margin-left:280px;
+}
+
+.disableitemcheckbox input{
+  margin-top:22px;
+}
+
+.disablecheckbox{
+  padding-right:20px
+}

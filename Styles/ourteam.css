@@ -1,0 +1,45 @@
+#bodyteam{
+  padding-top:120px;
+  margin: 0 auto;
+  width:70%;
+  padding-bottom:165px;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+
+.parentcontainer{
+  padding-bottom:80px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:#1e1e1e;
+  line-height: 1.5;
+}
+
+.columns {
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  display:inline-flex;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}

@@ -1,0 +1,253 @@
+.viewsingleapplicationpanel{
+  background-color:#302e30;
+  border-radius:40px;
+  padding: 20px 20px 20px 20px;
+  color:white;
+  text-align:center;
+  width:60%;
+  margin-left:200px;
+}
+
+.viewsingleapplicationpanel input{
+  display:block;
+  margin: 0 auto; /*Centers all input fields*/
+}
+
+.viewsingleapplicationpanel label{
+  display:block;
+  margin-top:20px; /*Change to top if desired*/
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+}
+
+.viewretailername{
+  display:inline-block;
+  width:55%;
+}
+
+.viewretailername label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.viewretailername input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.viewretaileraddress1{
+  display:inline-block;
+  width:55%;
+}
+
+.viewretaileraddress1 label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.viewretaileraddress1 input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.viewretaileraddress2{
+  display:inline-block;
+  width:55%;
+}
+
+.viewretaileraddress2 label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.viewretaileraddress2 input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.viewretaileremail{
+  display:inline-block;
+  width:55%;
+}
+
+.viewretaileremail label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.viewretaileremail input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.viewretaileremail{
+  display:inline-block;
+  width:55%;
+}
+
+.viewretaileremail label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.viewretaileremail input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.viewretailerphoneno{
+  display:inline-block;
+  width:55%;
+}
+
+.viewretailerphoneno label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.viewretailerphoneno input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.viewretailerzipcode{
+  display:inline-block;
+  width:55%;
+}
+
+.viewretailerzipcode label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.viewretailerzipcode input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.viewretailerreqdate{
+  display:inline-block;
+  width:55%;
+}
+
+.viewretailerreqdate label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.viewretailerreqdate input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.viewretailerreqstatus{
+  display:inline-block;
+  width:55%;
+}
+
+.viewretailerreqstatus label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.viewretailerreqstatus input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.viewretailerusername{
+  display:inline-block;
+  width:55%;
+}
+
+.viewretailerusername label{
+  text-align:left;
+  margin-left:25px;
+}
+
+.viewretailerusername input{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  width:90%;
+}
+
+.acceptrejectbuttons{
+  padding-top:40px;
+}
+
+.acceptrejectbuttons button{
+  width:20%;
+  padding: 16px 20px;
+  border-radius:5px;
+  border:none;
+  cursor:pointer;
+  transition-duration:0.4s;
+  margin-right:20px;
+  margin-left:20px;
+}
+
+.acceptrejectbuttons button:hover{
+  background-color:#F01919;
+  color:white;
+}
+
+.viewretailerreqdesc textarea{
+  padding: 12px 20px;
+  margin-top:8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius:5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  width:50%;
+}
