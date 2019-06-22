@@ -2,8 +2,8 @@
 
 
 ![Main Page](/supp_images/homepage.png)  
-**Project for - Software Development Project - **  
-**Project Duration - January - April 2019 **  
+* Project for - Software Development Project - *  
+* Project Duration - January - April 2019 *  
 ***
 Easkey Key Meal Debit system is an online E-Wallet website that allows users to register new accounts to purchase food an beverages online. This website was made by using HTML, JavaScript and CSS with PHP covering the backend.
 
@@ -50,3 +50,16 @@ VI. View the project by accessing localhost, EasyKey_Meal_Debit_System >> webpag
 # Additonal Images
 
 ![Menu](/supp_images/menu.png)
+* A picture of the menu in depth. 
+
+![Edit_Details](/supp_images/edit_details.png)
+* An interactive panel to edit user details
+
+![order_info](/supp_images/order_info.png)
+* View all past information processed by your account
+
+![retailer_panel](/supp_images/retailer_panel.png)
+* Retailer panel for retailers to updated about their shop information
+
+![reports](/supp_images/reports.png)
+* Reports exclusive to the user to produce as either invoice or reference
